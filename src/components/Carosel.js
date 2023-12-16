@@ -8,21 +8,21 @@ function CaroselTest() {
     return (
         <Carousel>
             <Carousel.Item interval={1000}>
-                <Image src={img1} rounded />
+                <Image src={img1} thumbnail />
                 <Carousel.Caption>
                     <h3>Shop anywhere</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
-                <Image src={img2} rounded />
+                <Image src={img2} thumbnail />
                 <Carousel.Caption>
                     <h3>Shop at home</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={img3} rounded />
+                <Image src={img3} thumbnail />
                 <Carousel.Caption>
                     <h3>Shop with friends</h3>
                     <p>

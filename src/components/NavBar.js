@@ -5,7 +5,7 @@ const theSauce = "https://www.instacart.com/assets/beetstrap/brand/2022/instacar
 
 function MyNavBar() {
     return (
-        <Navbar className="justify-content-md-center">
+        <Navbar>
             <NavbarBrand>
                 <img src={theSauce} alt="instacart"></img>
             </NavbarBrand>

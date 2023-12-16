@@ -14,27 +14,32 @@ function GridSample() {
         <Container>
             <Row className="justify-content-md-center">
                 <Col>
+                    <h1> Shop at Marianos</h1>
+                    <Image src={marianosLogo} thumbnail></Image>
+                </Col>
+                <Col>
+                    <h1> Shop at Vons</h1>
                     <Image src={vonsLogo} thumbnail></Image>
                 </Col>
                 <Col>
-                    <Image src={aldiLogo} thumbnail></Image>
-                </Col>
-                <Col>
-                    <Image src={marianosLogo} thumbnail></Image>
+                    <h1> Shop at Target</h1>
+                    <Image src={targetLogo} thumbnail></Image>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col>
-                    <Image src={marianosLogo} thumbnail></Image>
+                    <h1> Shop at Aldi</h1>
+                    <Image src={aldiLogo} thumbnail></Image>
                 </Col>
                 <Col>
-                    <Image src={jewelLogo} thumbnail></Image>
-                </Col>
-                <Col>
+                    <h1> Shop at Target</h1>
                     <Image src={targetLogo} thumbnail></Image>
                 </Col>
+                <Col>
+                    <h1> Shop at Jewel</h1>
+                    <Image src={jewelLogo} thumbnail></Image>
+                </Col>
             </Row>
-
         </Container>
     );
 }
